@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Casual Shirt",
+    "category": "Clothing",
+    "title": "Men's Slim Fit Casual Shirt",
+    "description": "A stylish slim-fit casual shirt for men, perfect for everyday wear.",
+    "size": "M",
+    "productPhoto": "https://i.ibb.co.com/MnBhCGM/images.jpg",
+    "price": 25.99,
+    "color": "Blue",
+    "gender": "Male"
+  },
+  {
+    "name": "Sneakers",
+    "category": "Footwear",
+    "title": "Unisex Comfortable Sneakers",
+    "description": "Lightweight and comfortable sneakers suitable for all-day wear.",
+    "size": "S",
+    "productPhoto": "https://i.ibb.co.com/jTm1pcJ/images.jpg",
+    "price": 49.99,
+    "color": "Gray",
+    "gender": "Unisex"
+  },
+  {
+    "name": "Leather Bag",
+    "category": "Accessories",
+    "title": "Stylish Leather Handbag",
+    "description": "A premium leather handbag with ample storage space.",
+    "size": "L",
+    "productPhoto": "https://i.ibb.co.com/yBskvSS/download.jpg",
+    "price": 89.99,
+    "color": "Brown",
+    "gender": "Female"
+  },
+  {
+    "name": "Sports Watch",
+    "category": "Accessories",
+    "title": "Digital Sports Watch",
+    "description": "Durable and water-resistant digital watch for outdoor activities.",
+    "size": "M",
+    "productPhoto": "https://i.ibb.co.com/gmRZrZ9/download.jpg",
+    "price": 29.99,
+    "color": "Green",
+    "gender": "Male"
+  },
+  {
+    "name": "Dress",
+    "category": "Clothing",
+    "title": "Elegant Evening Gown",
+    "description": "An elegant evening gown for special occasions.",
+    "size": "L",
+    "productPhoto": "https://i.ibb.co.com/bNJhwtt/images.jpg",
+    "price": 119.99,
+    "color": "Red",
+    "gender": "Female"
+  }
+]

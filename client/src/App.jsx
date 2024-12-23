@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className="text-white">
+      <div className="">
         <div>
           <Navber/>
         </div>

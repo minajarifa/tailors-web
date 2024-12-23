@@ -1,16 +1,6 @@
-import { useEffect, useState } from "react";
 
 export default function Home() {
-    const [users, setUsers] = useState([]);
-    // useEffect(() => {
-    //     fetch('http://localhost:9000/users')
-    //         .then(response => response.json())
-    //         .then(data => {
-    //             setUsers(data)
-    //         })
-    // }, [])
-
-   
+    
     
     return (
         <div>

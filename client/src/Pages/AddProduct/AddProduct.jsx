@@ -1,6 +1,7 @@
+import AddPost from "../../Components/AddPost";
 
 export default function AddProduct() {
   return (
-    <div>AddProduct</div>
+    <div><AddPost/></div>
   )
 }

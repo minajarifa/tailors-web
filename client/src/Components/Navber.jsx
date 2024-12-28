@@ -37,10 +37,10 @@ export default function Navber() {
                 <Link to='/'>Membership</Link>
               </li>
               <li>
-                <Link to='/Login'>Login</Link>
+                <Link to='/Login'>Join us</Link>
               </li>
               <li>
-                <Link to='/AddProduct'>AddProduct</Link>
+                <Link to='/UserDashboard/AddProduct'>Dashboard</Link>
               </li>
               <li>
                 <Link to='/MyProducts'>MyProducts</Link>

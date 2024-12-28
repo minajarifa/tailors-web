@@ -10,6 +10,8 @@ import Products from "./Pages/Products/Products.jsx";
 import Login from "./Pages/Login/Login.jsx";
 import Register from "./Pages/Register/Register.jsx";
 import AuthProvider from "./Components/Auth/AuthProvider.jsx";
+import UserDashboard from "./Components/Layout/UserDashboard/UserDashboard.jsx";
+import MyProfile from "./Pages/MyProfile/MyProfile.jsx";
 
 
 
@@ -23,26 +25,26 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/AddProduct",
-        element: <AddProduct />
-      },
-      {
-        path: "/MyProducts",
-        element: <MyProducts />
-      },
-      {
         path: "/Products",
-        element: <Products />
+        element: <Products/>
       },
     ],
   },
   {
-    path: "/",
-    element: <App />,
+    path: "/UserDashboard",
+    element: <UserDashboard/>,
     children: [
       {
-        path: "/",
-        element: <Home />,
+        path: "/UserDashboard/MyProfile",
+        element: <MyProfile/>
+      },
+      {
+        path: "/UserDashboard/AddProduct",
+        element: <AddProduct/>
+      },
+      {
+        path: "/UserDashboard/MyProducts",
+        element: <MyProducts/>
       },
       
     ],

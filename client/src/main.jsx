@@ -9,49 +9,57 @@ import MyProducts from "./Pages/MyProducts/MyProducts.jsx";
 import Products from "./Pages/Products/Products.jsx";
 import Login from "./Pages/Login/Login.jsx";
 import Register from "./Pages/Register/Register.jsx";
-
-
-
+import AuthProvider from "./Components/Auth/AuthProvider.jsx";
 
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <App />,
     children: [
       {
         path: "/",
-        element: <Home/>,
+        element: <Home />,
       },
       {
         path: "/AddProduct",
-        element: <AddProduct/>
+        element: <AddProduct />
       },
       {
         path: "/MyProducts",
-        element: <MyProducts/>
+        element: <MyProducts />
       },
       {
         path: "/Products",
-        element: <Products/>
+        element: <Products />
       },
     ],
   },
   {
+    path: "/",
+    element: <App />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      
+    ],
+  },
+  {
     path: '/Login',
-    element: <Login/>
+    element: <Login />
   },
   {
     path: '/Register',
-    element: <Register/>
+    element: <Register />
   }
 ]);
-
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-
-    <RouterProvider router={router} />
-
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
   </React.StrictMode>
 );

@@ -42,9 +42,7 @@ export default function Navber() {
               <li>
                 <Link to='/UserDashboard/AddProduct'>Dashboard</Link>
               </li>
-              <li>
-                <Link to='/MyProducts'>MyProducts</Link>
-              </li>
+             
               <li>
                 <Link to='/Products'>Products</Link>
               </li>

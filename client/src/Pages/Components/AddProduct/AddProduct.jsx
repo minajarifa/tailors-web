@@ -1,4 +1,4 @@
-import AddPost from "../../Components/AddPost";
+import AddPost from "../../../Components/AddPost";
 
 export default function AddProduct() {
   return (

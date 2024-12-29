@@ -4,14 +4,14 @@ import App from "./App.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Pages/Home/Home.jsx";
-import AddProduct from "./Pages/AddProduct/AddProduct.jsx";
-import MyProducts from "./Pages/MyProducts/MyProducts.jsx";
 import Products from "./Pages/Products/Products.jsx";
 import Login from "./Pages/Login/Login.jsx";
 import Register from "./Pages/Register/Register.jsx";
 import AuthProvider from "./Components/Auth/AuthProvider.jsx";
 import UserDashboard from "./Components/Layout/UserDashboard/UserDashboard.jsx";
-import MyProfile from "./Pages/MyProfile/MyProfile.jsx";
+import MyProfile from "./Pages/Components/MyProfile/MyProfile.jsx";
+import AddProduct from "./Pages/Components/AddProduct/AddProduct.jsx";
+import MyProducts from "./Pages/Components/MyProducts/MyProducts.jsx";
 
 
 

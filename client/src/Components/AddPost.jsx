@@ -1,7 +1,9 @@
+
+
 export default function AddPost() {
     return (
         <div>
-            <h2 className="text-lg font-semibold text-gray-700 capitalize dark:text-white">
+            <h2 className="text-lg font-semibold text-center text-gray-700 capitalize dark:text-white">
                 Account Settings
             </h2>
             <section className="w-full p-6 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800 ">
